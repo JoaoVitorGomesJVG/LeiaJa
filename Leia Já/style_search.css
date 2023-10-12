@@ -79,7 +79,7 @@
 }
 #search_button{
     aspect-ratio: 3/2;
-    height: 2.5rem;
+    height: 2.25rem;
     border-top-right-radius: calc(2.5rem/2);
     border-bottom-right-radius: calc(2.5rem/2);
     border: 1px solid #77cf37;
