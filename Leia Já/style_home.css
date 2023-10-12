@@ -83,6 +83,13 @@ header{
     height: auto;
 }
 
+@media screen and (max-width:500px) {
+    #main_title_container{
+        margin-top: 20%;
+    }
+    
+}
+
 
 @media screen and (max-width:400px) {
     
