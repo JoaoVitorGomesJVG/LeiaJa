@@ -18,7 +18,7 @@ header{
 
 #header_title{
     
-    font-size: 2em;
+    font-size: 2rem;
     margin-left: 1rem;
     display: inline;
     vertical-align: middle;
@@ -44,7 +44,7 @@ header{
 
 /* TITULO E IMAGEM */
 #main_title_container{
-    margin-top: 10%;
+    margin-top: 7.5%;
     margin-left: 10%;
     margin-right: 10%;
     max-width: 80%;
@@ -59,37 +59,74 @@ header{
     height: auto;
 }
 
-@media screen and (max-width: 1200px) {
-    #main_title_container {
-        flex-direction: column;
-        gap: 1.2rem;
-    }
-    #main_text {
-        text-align: center;
-    }
-}
-
 #main_text{
     display: block;
     justify-content: center;
     text-align: left;
     width: auto;
-    margin-right: 20%;
 }
 
 #main_title{
     font-size: 5rem;
     transition: 0.2s;
-    width: fit-content;
+    width: 18rem;
 }
 #main_title:hover{
     color: #5cbd17;
 }
 #main_description{
     font-size: 1.25rem;
-    width: fit-content;
+    width: 18rem;
 }
 #image{
     width: 550px;
     height: auto;
+}
+
+
+@media screen and (max-width:400px) {
+    
+    #header_button{
+        width:8rem;
+    }
+    #main_title{
+        font-size: 4rem;
+    }
+    #main_description{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    #main_title_container {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    #main_description{
+        text-align: center;
+    }
+    #main_title{
+        text-align: center;
+    }
+}
+@media screen and (min-width:1200px){
+    #main_text{
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #header_title{
+        font-size: 2rem;
+    }
+    #header_button{
+        width:6rem;
+    }
+    #main_title{
+        font-size: 3.5rem;
+    }
+    #main_description{
+        font-size: 1rem;
+    }
 }
