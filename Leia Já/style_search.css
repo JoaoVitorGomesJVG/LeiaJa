@@ -146,6 +146,7 @@
 }
 #info_title{
     font-size: 1.5rem;
+    transition: 0.2s;
 
 }
 #info_title:hover{
