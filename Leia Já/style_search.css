@@ -136,8 +136,10 @@
     padding: 0.25rem;
     border: 1px solid #77cf37;
     border-radius: 0.25rem;
+    transition: 0.2s;
 }
 #main_book_image:hover{
+    height: 15rem;
     filter: brightness(90%);
 }
 
