@@ -61,7 +61,7 @@
 
 #main_bookshelf{
     margin:3%;
-    margin-inline: 5%;
+    margin-inline: 15%;
     border: solid 1px #77cf37;
     border-radius: 0.5rem;
 }
@@ -76,13 +76,18 @@
 
 #main_review{
     margin:1.5rem;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
 }
 
 #main_review_info{
+    text-align: center;
     align-self: center;
     height: fit-content;
-    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-inline: 0;
 }
 
 #info_title{
@@ -94,8 +99,9 @@
     display: inline-flex;
     gap:0.25rem;
 }
-
+/* SINOPSE */
 #synopsis{
+    justify-content: center;
     margin: 1%;
     padding: 1%;
     margin-left: 0;
@@ -114,14 +120,12 @@
 .hidden{
     display : none;
 }
-@media screen and (min-width:1000px){
-    #synopsis{
-        width: fit-content;
-    }
-}
 
 
 @media screen and (max-width:1000px) {
+    #main_bookshelf{
+        margin-inline: 5%;
+    }
     #main_review{
         margin:1.5rem;
         display: flex;
