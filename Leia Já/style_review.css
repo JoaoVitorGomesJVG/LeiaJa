@@ -114,7 +114,11 @@
 .hidden{
     display : none;
 }
-
+@media screen and (min-width:1000px){
+    #synopsis{
+        width: fit-content;
+    }
+}
 
 
 @media screen and (max-width:1000px) {
