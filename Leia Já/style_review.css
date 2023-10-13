@@ -111,6 +111,9 @@
 #info_synopsis_container{
     margin-top: 0.5rem;
 }
+.hidden{
+    display : none;
+}
 
 
 
