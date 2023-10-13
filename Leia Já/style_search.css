@@ -159,6 +159,8 @@
     gap: 0.5rem;
 }
 
+
+
 @media screen and (max-width:550px){
     #main_book{
         margin-bottom:2.5%;

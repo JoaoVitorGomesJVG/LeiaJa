@@ -42,6 +42,7 @@
     width: fit-content;
     font-size: 2rem;
 }
+
 #main_title_button{
     float: right;
     width: 10rem;
@@ -56,7 +57,7 @@
     background-color: #51a514;
 }
 
-/* MOLDURA */
+/* RESENHA */
 
 #main_bookshelf{
     margin:3%;
@@ -64,4 +65,79 @@
     border: solid 1px #77cf37;
     border-radius: 0.5rem;
 }
+
+#review_image{
+    align-self: center;
+    height: 20rem;
+}
+
+#main_review{
+    margin:1.5rem;
+    display: inline-flex;
+}
+
+#main_review_info{
+    align-self: center;
+    height: fit-content;
+    margin-left: 1.5rem;
+}
+
+#info_title{
+    font-size: 1.5rem;
+}
+
+#info_group{
+    display: inline-flex;
+    gap:0.25rem;
+}
+
+#synopsis{
+    margin: 1%;
+    padding: 1%;
+    margin-left: 0;
+    border: 1px solid #77cf37;
+    border-radius: 0.5rem;
+}
+
+#info_synopsis{
+    font-size: 1.25rem;
+    color: #77cf37;
+}
+
+#info_synopsis_container{
+    margin-top: 0.5rem;
+}
+
+
+
+@media screen and (max-width:800px) {
+    #main_review{
+        margin:1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #review_image{
+        align-self: center;
+    }
+    #main_review_info{
+        text-align: center;
+    }
+    
+
+}
+
+@media screen and (max-width:330px) {
+    #main_title_button{
+        width:8.5rem;
+    }
+    
+}
+
+@media screen and (max-width:300px) {
+    #main_title_button{
+        width:6rem;
+    }
+    
+}
+
 
