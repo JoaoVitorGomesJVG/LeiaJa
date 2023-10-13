@@ -110,17 +110,24 @@
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
     #main_review{
         margin:1.5rem;
         display: flex;
         flex-direction: column;
+        align-content: center;
+    }
+    #main_review_info{
+        margin: 0;
     }
     #review_image{
         align-self: center;
     }
     #main_review_info{
         text-align: center;
+    }
+    #synopsis{
+        margin: 0;
     }
     
 
