@@ -141,6 +141,7 @@
 #main_book_image:hover{
     height: 15rem;
     filter: brightness(90%);
+    cursor: pointer;
 }
 
 #main_book_info{
@@ -150,9 +151,6 @@
     font-size: 1.5rem;
     transition: 0.2s;
 
-}
-#info_title:hover{
-    color: #77cf37
 }
 #info_group{
     width: 100%;
