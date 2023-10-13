@@ -67,8 +67,11 @@
 }
 
 #review_image{
-    align-self: center;
     height: 20rem;
+    padding: 1%;
+    border: 1px solid #77cf37;
+    border-radius: 0.5rem;
+    align-self: center;
 }
 
 #main_review{
@@ -84,6 +87,7 @@
 
 #info_title{
     font-size: 1.5rem;
+    color: #51a514;
 }
 
 #info_group{
@@ -92,6 +96,7 @@
 }
 
 #synopsis{
+    width: fit-content;
     margin: 1%;
     padding: 1%;
     margin-left: 0;
@@ -118,9 +123,13 @@
         align-content: center;
     }
     #main_review_info{
-        margin: 0;
+        margin-top: 1rem;
+        margin-inline: 0;
     }
     #review_image{
+        padding: 1%;
+        border: 1px solid #77cf37;
+        border-radius: 0.5rem;
         align-self: center;
     }
     #main_review_info{
