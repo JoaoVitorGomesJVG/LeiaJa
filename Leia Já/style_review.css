@@ -56,85 +56,92 @@
 }
 
 /* INFORMAÇÕES */
-
-#main_bookshelf{
-    margin:3%;
-    margin-inline: 15%;
-    border: solid 1px #77cf37;
-    border-radius: 0.5rem;
-}
-
-#review_image{
-    height: 20rem;
-    padding: 1%;
-    border: 1px solid #77cf37;
-    border-radius: 0.5rem;
-    align-self: center;
-}
-
-#main_review{
-    margin:1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-
-}
-
-#main_review_info{
-    text-align: center;
-    align-self: center;
-    height: fit-content;
-    margin-top: 1rem;
-    margin-inline: 0;
-}
-
-#info_title{
-    font-size: 1.5rem;
-    color: #51a514;
-    transition: 0.3s;
-}
-#info_title:hover{
-    color: #77cf37;
-}
-
-#info_group{
-    display: inline-flex;
-    gap:0.25rem;
-}
-/* SINOPSE */
-#synopsis{
-    justify-content: center;
-    margin: 1%;
-    padding: 1%;
-    margin-left: 0;
-    border: 1px solid #77cf37;
-    border-radius: 0.5rem;
-}
-
-#info_synopsis{
-    font-size: 1.25rem;
-    color: #77cf37;
-}
-
-#info_synopsis_container{
-    margin-top: 0.5rem;
-}
-.hidden{
-    display : none;
+@media screen and (min-width:1000px) {
+    #main_review{
+        border: solid 1px #77cf37;
+        border-radius: 0.5rem;
+        padding: 2%;
+        width: 28%;
+        float: left;
+        margin:1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #main_review_info{
+        text-align: center;
+        align-self: center;
+        height: fit-content;
+        margin-top: 1rem;
+        margin-inline: 0;
+    }
+    #review_image{
+        height: 20rem;
+        padding: 1%;
+        border: 1px solid #77cf37;
+        border-radius: 0.5rem;
+        align-self: center;
+    }
+    #main_review_info{
+        text-align: center;
+        align-self: center;
+        height: fit-content;
+        margin-top: 1rem;
+        margin-inline: 0;
+    }
+    #info_title{
+        font-size: 1.5rem;
+        color: #51a514;
+        transition: 0.3s;
+    }
+    #info_title:hover{
+        color: #77cf37;
+    }
+    
+    #info_group{
+        display: inline-flex;
+        gap:0.25rem;
+    }
+    /* SINOPSE */
+    #synopsis{
+        justify-content: center;
+        margin: 1%;
+        padding: 1%;
+        margin-left: 0;
+        border: 1px solid #77cf37;
+        border-radius: 0.5rem;
+    }
+    
+    #info_synopsis{
+        font-size: 1.25rem;
+        color: #77cf37;
+    }
+    
+    #info_synopsis_container{
+        margin-top: 0.5rem;
+    }
+    .hidden{
+        display : none;
+    }
+    
 }
 
 /* RESENHA */
 #main_notebook{
+    float: right;
     margin: 2.5%;
     padding: 2%;
-    border-top: 1px solid #77cf37;
     text-align: center;
 }
 
 
 @media screen and (max-width:1000px) {
+
     #main_bookshelf{
+        margin:3%;
         margin-inline: 5%;
+        border: solid 1px #77cf37;
+        border-radius: 0.5rem;
     }
     #main_review{
         margin:1.5rem;
@@ -143,10 +150,14 @@
         align-content: center;
     }
     #main_review_info{
+        text-align: center;
+        align-self: center;
+        height: fit-content;
         margin-top: 1rem;
         margin-inline: 0;
     }
     #review_image{
+        height: 20rem;
         padding: 1%;
         border: 1px solid #77cf37;
         border-radius: 0.5rem;
@@ -154,11 +165,49 @@
     }
     #main_review_info{
         text-align: center;
-    }
-    #synopsis{
+        align-self: center;
+        height: fit-content;
         margin-top: 1rem;
         margin-inline: 0;
-
+    }
+    #info_title{
+        font-size: 1.5rem;
+        color: #51a514;
+        transition: 0.3s;
+    }
+    #info_title:hover{
+        color: #77cf37;
+    }
+    
+    #info_group{
+        display: inline-flex;
+        gap:0.25rem;
+    }
+    #synopsis{
+        justify-content: center;
+        padding: 1%;
+        border: 1px solid #77cf37;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        margin-inline: 0;
+    }
+    #info_synopsis{
+        font-size: 1.25rem;
+        color: #77cf37;
+    }
+    
+    #info_synopsis_container{
+        margin-top: 0.5rem;
+    }
+    .hidden{
+        display : none;
+    }
+    /* RESENHA */
+    #main_notebook{
+        margin: 2.5%;
+        padding: 2%;
+        border-top: 1px solid #77cf37;
+        text-align: center;
     }
     
 
