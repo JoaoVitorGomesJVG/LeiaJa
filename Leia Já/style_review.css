@@ -127,8 +127,7 @@
 #main_notebook{
     margin: 2.5%;
     padding: 2%;
-    border: 1px solid #77cf37;
-    border-radius: 0.5rem;
+    border-top: 1px solid #77cf37;
     text-align: center;
 }
 
@@ -163,6 +162,15 @@
     }
     
 
+}
+@media screen and (max-width:375px) {
+    #synopsis{
+        margin-inline: 0;
+    }
+    #main_review{
+        margin-block: 3%;
+        margin-inline: 2%;
+    }
 }
 
 @media screen and (max-width:330px) {
