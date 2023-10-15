@@ -65,7 +65,7 @@
     #main_bookshelf{
         display: flex;
         align-items: center;
-        margin: 0.5%;
+        margin: 3%;
         padding: 2%;
         border: 1px solid #77cf37;
         border-radius: 0.5rem;
