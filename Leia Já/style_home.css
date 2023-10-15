@@ -107,6 +107,7 @@ header{
 
 @media screen and (max-width: 1200px) {
     #main_title_container {
+        margin-top: 25%;
         flex-direction: column;
         gap: 1.2rem;
     }
