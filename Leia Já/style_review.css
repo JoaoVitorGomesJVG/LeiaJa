@@ -57,57 +57,50 @@
 
 /* INFORMAÇÕES */
 @media screen and (min-width:1000px) {
-    #main_review{
-        border: solid 1px #77cf37;
-        border-radius: 0.5rem;
-        padding: 2%;
-        width: 28%;
-        float: left;
-        margin:1.5rem;
+    
+    .main{
         display: flex;
-        flex-direction: column;
-        align-content: center;
+        flex-direction: row;
     }
-    #main_review_info{
-        text-align: center;
-        align-self: center;
-        height: fit-content;
-        margin-top: 1rem;
-        margin-inline: 0;
-    }
-    #review_image{
-        height: 20rem;
-        padding: 1%;
+    #main_bookshelf{
+        display: flex;
+        align-items: center;
+        margin: 0.5%;
+        padding: 2%;
         border: 1px solid #77cf37;
         border-radius: 0.5rem;
-        align-self: center;
     }
-    #main_review_info{
-        text-align: center;
-        align-self: center;
-        height: fit-content;
-        margin-top: 1rem;
-        margin-inline: 0;
+    #main_review{
+       align-content: space-around;
+    }
+
+    #review_image{
+       height: 20rem;
+       border: 1px solid #77cf37;
+       border-radius: 0.5rem;
     }
     #info_title{
         font-size: 1.5rem;
-        color: #51a514;
-        transition: 0.3s;
-    }
-    #info_title:hover{
         color: #77cf37;
+        margin-block: 0.5rem;
     }
-    
+
+    #info_year , #info_author{
+        width: fit-content;
+    }
     #info_group{
-        display: inline-flex;
-        gap:0.25rem;
+        display: flex;
+        flex-direction: row;
+        gap: 0.25rem;
     }
     /* SINOPSE */
     #synopsis{
+        align-self: center;
         justify-content: center;
         margin: 1%;
+        margin-top: 0.5rem;
         padding: 1%;
-        margin-left: 0;
+        margin-inline: 0;
         border: 1px solid #77cf37;
         border-radius: 0.5rem;
     }
@@ -115,6 +108,7 @@
     #info_synopsis{
         font-size: 1.25rem;
         color: #77cf37;
+        text-align: center;
     }
     
     #info_synopsis_container{
@@ -123,16 +117,16 @@
     .hidden{
         display : none;
     }
+    /* RESENHA */
+    #main_notebook{
+        margin:3%;
+        margin-left: 0;
+
+    }
     
 }
 
-/* RESENHA */
-#main_notebook{
-    float: right;
-    margin: 2.5%;
-    padding: 2%;
-    text-align: center;
-}
+
 
 
 @media screen and (max-width:1000px) {
@@ -206,8 +200,10 @@
     #main_notebook{
         margin: 2.5%;
         padding: 2%;
-        border-top: 1px solid #77cf37;
         text-align: center;
+    }
+    #review_title{
+        margin-bottom: 2%;
     }
     
 

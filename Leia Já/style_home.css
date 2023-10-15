@@ -70,10 +70,9 @@ header{
     font-size: 5rem;
     transition: 0.2s;
     width: 18rem;
-}
-#main_title:hover{
     color: #5cbd17;
 }
+
 #main_description{
     font-size: 1.25rem;
     width: 18rem;
@@ -120,7 +119,7 @@ header{
 }
 @media screen and (min-width:1200px){
     #main_text{
-        margin-right: 20%;
+        margin-right: 15%;
     }
 }
 
