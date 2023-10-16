@@ -75,9 +75,10 @@
     }
 
     #review_image{
-       height: 20rem;
-       border: 1px solid #77cf37;
-       border-radius: 0.5rem;
+        
+        height: 20rem;
+        border: 1px solid #77cf37;
+        border-radius: 0.5rem;
     }
     #info_title{
         font-size: 1.5rem;
