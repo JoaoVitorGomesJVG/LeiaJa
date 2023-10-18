@@ -121,9 +121,13 @@
     }
     /* RESENHA */
     #main_notebook{
+        text-align: justify;
         margin:3%;
         margin-left: 0;
 
+    }
+    #review_title{
+        margin-bottom: 0.5rem;
     }
     
 }
