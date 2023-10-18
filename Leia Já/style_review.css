@@ -71,7 +71,8 @@
         border-radius: 0.5rem;
     }
     #main_review{
-       align-content: space-around;
+        /* ALINHAR IMAGEM REVIEW */
+        align-content: space-around;
     }
 
     #review_image{
