@@ -4,7 +4,7 @@
     <title>Leia Já</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_review.css">
+    <link rel="stylesheet" href="../style_review.css">
     <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
@@ -14,46 +14,53 @@
         <div id="main_header">
             <div id="main_title">
                 <h1>Leia Já:</h1>
-                <button id="main_title_button">Home</button>
+                <div id="header_button">
+                    <a id="main_title_arrow_container" href="../search.html"><img id="main_title_arrow" src="../left-arrow.png"></a>
+                    <button id="main_title_button">Home</button>
+                </div>
             </div>
         </div>
     </header>
     <main class="main">
         <div id="main_bookshelf">
             <div id="main_review">
-                <img src="" id="review_image">
+                <img src="../images/Dom_Casmurro.jpg" id="review_image">
 
                 <div id="main_review_info">
                     <div id="info">
-                        <p id="info_title"></p>
+                        <p id="info_title">Dom Casmurro.</p>
                         <div id="info_group">
-                            <p id="info_author"></h2>,
-                            <p id="info_year"></p>
+                            <p id="info_author">Machado de Assis</h2>,
+                            <p id="info_year">1899</p>
                         </div>
-                        <p id="info_publisher"></p>
-                        <p id="info_page"></p>
+                        <p id="info_publisher">Antofágica</p>
+                        <p id="info_page">462 Páginas</p>
                     </div>
                     <div id="synopsis">
                         <p id="info_synopsis" onclick="showhide()">Sinopse Oficial:</p>
-                        <p id="info_synopsis_container" class="hidden"></p>
+                        <p id="info_synopsis_container" class="hidden">Prometido para o seminário desde o nascimento, o jovem carioca Bentinho precisa encontrar um jeito de fugir da vida na Igreja e realizar seu verdadeiro sonho: casar-se com a vizinha Capitu. Uma história de paixão, obsessão e ciúme se desenrola, em uma narrativa cheia de reviravoltas, que aos poucos constrói um retrato da sociedade brasileira. Com este romance publicado em 1899, o maior nome da literatura nacional, Machado de Assis, torna-se também parte do cânone mundial. Dom Casmurro traz contundentes reflexões sobre o Brasil de sua época, ainda muito relevantes para os dias atuais, e faz isso com a narrativa repleta de ironia que é uma marca do autor.</p>
                     </div>
                 </div>
             </div> 
         </div>
         <div id="main_notebook">
             <div id="review_title">
-                <h1 id="review_title_content"></h1>
+                <h1 id="review_title_content">
+                    <!-- TITULO REVIEW -->
+                </h1>
             </div>
             <div id="review_content">
-                <p id="review_paragraph"></p>
+                <p id="review_paragraph">
+                    <!-- REVIEW AQUI -->
+                </p>
             </div>
         </div>
     </main>
 
     <footer>
     </footer>
-    <script src="review.js"></script>
-    <script src="home_button.js"></script>
+    <script src="../review.js"></script>
+    <script src="../home_button.js"></script>
 </body>
  
 </html>

@@ -40,6 +40,27 @@
     width: fit-content;
     font-size: 2rem;
 }
+#header_button{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main_title_arrow_container{
+    height: 38px;
+    width: 38px;
+    background-color: #5cbd17;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+#main_title_arrow_container:hover{
+    background-color: #51a514;
+}
+#main_title_arrow{
+    margin-left: 5px;
+    margin-top: 7px;
+    height: 1.5rem;
+}
 
 #main_title_button{
     float: right;
@@ -123,8 +144,10 @@
     #main_notebook{
         text-align: justify;
         margin:3%;
+        padding: 2%;
         margin-left: 0;
-
+        border: 1px solid #77cf37;
+        border-radius: 0.5rem;
     }
     #review_title{
         margin-bottom: 0.5rem;
@@ -213,6 +236,17 @@
     }
     
 
+}
+@media screen and (max-width:550px){
+    #header_button{
+        gap:0;
+    }
+    #main_title_arrow_container{
+        display: none;
+    }
+    #main_title_arrow{
+        display: none;
+    }
 }
 @media screen and (max-width:395px) {
     #synopsis{
