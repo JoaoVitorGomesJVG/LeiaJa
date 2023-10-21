@@ -19,16 +19,15 @@
         </div>
         
         <div id="main_searchbar">
-            <input type="search" id="search_bar" placeholder="Ex: Sapiens"></input>
-            <button id="search_button"><img id="search_button_image" src="8666693_search_icon.png"></button>
+            <input type="text" id="search_bar" placeholder="Ex: Sapiens" oninput="search_animal()"></input>
         </div>
         <div id="main_bookshelf">
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review/sapiens.html"><img id="main_book_image" src="./images/Sapiens.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review/sapiens.html">Sapiens, Uma Breve História da Humanidade.</a>
+                    <a id="info_title" href="./review/sapiens.html" name="title">Sapiens, Uma Breve História da Humanidade.</a>
                     <div id="info_group">
                         <p id="info_author">Yuval Noah Harari</h2>,
                         <p id="info_year">2011</p>
@@ -37,12 +36,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review/homodeus.html"><img id="main_book_image" src="./images/Homo_Deus.jpg"c:\Users\gomes\OneDrive\Documentos\GitHub\API FODAO\api-teste\images></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review/homodeus.html">Homo Deus, Uma Breve História do Amanhã.</a>
+                    <a id="info_title" href="./review/homodeus.html" name="title">Homo Deus, Uma Breve História do Amanhã.</a>
                     <div id="info_group">
                         <p id="info_author">Yuval Noah Harari</h2>,
                         <p id="info_year">2015</p>
@@ -51,12 +50,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review/domcasmurro.html"><img id="main_book_image" src="./images/Dom_Casmurro.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review/domcasmurro.html">Dom Casmurro.</a>
+                    <a id="info_title" href="./review/domcasmurro.html" name="title">Dom Casmurro.</a>
                     <div id="info_group">
                         <p id="info_author">Machado de Assis</h2>,
                         <p id="info_year">1899</p>
@@ -65,12 +64,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review/memoriaspostumas.html"><img id="main_book_image" src="./images/Memorias_Postumas.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review/memoriaspostumas.html">Memórias Póstumas de Brás Cubas.</a>
+                    <a id="info_title" href="./review/memoriaspostumas.html" name="title">Memórias Póstumas de Brás Cubas.</a>
                     <div id="info_group">
                         <p id="info_author">Machado de Assis</h2>,
                         <p id="info_year">1881</p>
@@ -79,12 +78,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=5"><img id="main_book_image" src="./images/Maus.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=5">Maus.</a>
+                    <a id="info_title" href="./review.html?BookId=5" name="title">Maus.</a>
                     <div id="info_group">
                         <p id="info_author">Art Spiegelman</h2>,
                         <p id="info_year">1986</p>
@@ -93,12 +92,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=6"><img id="main_book_image" src="./images/O_Pequeno_Principe.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=6">O Pequeno Príncipe.</a>
+                    <a id="info_title" href="./review.html?BookId=6" name="title">O Pequeno Príncipe.</a>
                     <div id="info_group">
                         <p id="info_author">Antoine de Saint-Exupéry</h2>,
                         <p id="info_year">1943</p>
@@ -107,12 +106,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=7"><img id="main_book_image" src="./images/1984.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=7">1984.</a>
+                    <a id="info_title" href="./review.html?BookId=7" name="title">1984.</a>
                     <div id="info_group">
                         <p id="info_author">George Orwell</h2>,
                         <p id="info_year">1949</p>
@@ -121,12 +120,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=8"><img id="main_book_image" src="./images/A_Revolucao_dos_bichos.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=8">A Revolução dos Bichos.</a>
+                    <a id="info_title" href="./review.html?BookId=8" name="title">A Revolução dos Bichos.</a>
                     <div id="info_group">
                         <p id="info_author">George Orwell</h2>,
                         <p id="info_year">1945</p>
@@ -135,12 +134,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=9"><img id="main_book_image" src="./images/Fahrenheit_451.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=9">Fahrenheit 451.</a>
+                    <a id="info_title" href="./review.html?BookId=9"name="title">Fahrenheit 451.</a>
                     <div id="info_group">
                         <p id="info_author">Ray Bradbury</h2>,
                         <p id="info_year">1953</p>
@@ -149,12 +148,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=10"><img id="main_book_image" src="./images/O_Mundo_de_Sofia.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=10">O Mundo de Sofia.</a>
+                    <a id="info_title" href="./review.html?BookId=10" name="title">O Mundo de Sofia.</a>
                     <div id="info_group">
                         <p id="info_author">Jostein Gaardner</h2>,
                         <p id="info_year">1991</p>
@@ -163,12 +162,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=11"><img id="main_book_image" src="./images/Jane_Eyre.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=11">Jane Eyre.</a>
+                    <a id="info_title" href="./review.html?BookId=11" name="title">Jane Eyre.</a>
                     <div id="info_group">
                         <p id="info_author">Charlotte Brontë</h2>,
                         <p id="info_year">1847</p>
@@ -177,12 +176,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=12"><img id="main_book_image" src="./images/A_Tirania_do_Merito.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=12">A Tirania do Mérito.</a>
+                    <a id="info_title" href="./review.html?BookId=12" name="title">A Tirania do Mérito.</a>
                     <div id="info_group">
                         <p id="info_author">Michael J. Sandel</h2>,
                         <p id="info_year">2020</p>
@@ -191,12 +190,12 @@
                     
                 </div>
             </div>
-            <div id="main_book">
+            <div id="main_book" name="main_book">
                 
                 <a id="main_book_anchor" href="./review.html?BookId=13"><img id="main_book_image" src="./images/Anne_1.jpg"></a>
                 
                 <div id="main_book_info">
-                    <a id="info_title" href="./review.html?BookId=13">Anne de Green Gables.</a>
+                    <a id="info_title" href="./review.html?BookId=13" name="title">Anne de Green Gables.</a>
                     <div id="info_group">
                         <p id="info_author">Lucy Maud Montgomery</h2>,
                         <p id="info_year">1908</p>
