@@ -86,11 +86,7 @@
 @media screen and (max-width: 430px) {
     
     #search_bar{
-        margin-left: 5%;
-    }
-    #search_button{
-        margin-right: 5%;
-        
+        margin-inline: 5%;
     }
     
 }
@@ -161,7 +157,7 @@
     #main_book{
         text-align: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     #info_title{
         font-size: 1.25rem;
@@ -170,13 +166,21 @@
         flex-direction: row;
         justify-content: center;
     }
-    #info_quote{
-        display: none;
+
+}
+@media screen and (max-width:350px){
+    #info_group{
+        flex-direction: column;
+        gap:0;
     }
 }
+
 @media screen and (max-width:330px) {
     #main_title_button{
         width:8.5rem;
+    }
+    #info_publisher{
+        display: none;
     }
     
 }
