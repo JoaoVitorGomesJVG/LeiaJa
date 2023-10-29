@@ -153,6 +153,10 @@
     }
     #main_book_image{
         align-self: center;
+        
+    }
+    #main_book_image:hover{
+        height: 10rem;
     }
     #main_book{
         text-align: center;
