@@ -1,4 +1,4 @@
-function search_animal() { 
+function search_book() { 
     let x = document.getElementsByName('main_book'); 
     let y = document.getElementsByName('title');
     

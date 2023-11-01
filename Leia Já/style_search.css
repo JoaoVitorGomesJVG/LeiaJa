@@ -146,6 +146,10 @@
     flex-direction: row;
     gap: 0.25rem;
 }
+#info_date{
+    font-size: 0.75rem;
+    color: #2b2b2b;
+}
 
 @media screen and (max-width:550px){
     #main_book{
